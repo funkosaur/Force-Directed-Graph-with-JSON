@@ -3,6 +3,12 @@ const canvas = document.getElementById("canvas");
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 const context = canvas.getContext("2d");
+const timelineDropdown = document.getElementById("timelineDropdown");
+const styleDropdown = document.getElementById("styleDropdown");
+const genreDropdown = document.getElementById("genreDropdown");
+const techniqueDropdown = document.getElementById("techniqueDropdown");
+const locationDropdown = document.getElementById("locationDropdown");
+const creatorDropdown = document.getElementById("creatorDropdown");
 
 // Fetch and parse the JSON data
 fetch("metadata.json")
