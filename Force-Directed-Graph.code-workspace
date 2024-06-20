@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "../Force-Directed-Graph"
+	},
+	{
+		"path": "."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Force-Directed-Graph-with-JSON"
+  }
+}
